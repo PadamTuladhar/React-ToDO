@@ -1,0 +1,34 @@
+.headerTitle {
+    font-size: 30px;
+}
+
+.mainWrapper {
+    padding: 50px;
+}
+
+.dialogWrapper {
+    padding: 20px;
+    width:600px;
+}
+
+.todolistWrapper {
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.button{
+    background-color: gray;
+    border: none;
+    color: #FFFFFF;
+    padding: 15px 32px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    margin: 16px 0 !important;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 12px;
+    margin-right:20px !important;
+}
